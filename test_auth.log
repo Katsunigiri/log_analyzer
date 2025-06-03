@@ -1,0 +1,4 @@
+Jun 3 12:00:00 ubuntu sshd[1234]: Failed password for invalid user admin from 192.168.1.100 port 22 ssh2
+Jun 3 12:01:00 ubuntu sshd[1235]: Accepted password for user from 192.168.1.101 port 22 ssh2
+Jun 3 12:02:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root by user(uid=0)
+Jun 3 12:03:00 ubuntu sshd[1236]: Failed password for invalid user test from 10.0.0.5 port 2222 ssh2
