@@ -14,7 +14,7 @@
 
 # Пример отчета
 
-![Пример графика](ip_attempts.png)
+![Пример графика](ip_attemps.png)
 
 ---
 
@@ -23,13 +23,18 @@
 1. Убедитесь, что у вас установлен Python 3
 2. Установите зависимости
 
+---
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install matplotlib ```
+
+---
 
 3. Поместите файл auth.log или test_auth.log в папку со скриптом
 4. Запустите скрипт:
 python3 ip_stats.py
 5. откройте отчет:
 xdg-open report.html
+
